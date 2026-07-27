@@ -1,0 +1,20 @@
+{
+  "name": "my-college-routine-app",
+  "version": "1.0.0",
+  "description": "روتيني الجامعي — تطبيق أندرويد أصلي مبني بـ Capacitor",
+  "scripts": {
+    "build": "esbuild src/index.jsx --bundle --minify --platform=browser --format=iife --outfile=www/bundle.js && npx cap sync android"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "0.383.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "@capacitor/cli": "^8.0.0"
+  }
+}
