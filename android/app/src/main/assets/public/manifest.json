@@ -1,6 +1,6 @@
 {
-  "name": "روتيني الجامعي",
-  "short_name": "روتيني",
+  "name": "My Routine",
+  "short_name": "My Routine",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0B0F17",
