@@ -1,0 +1,11 @@
+node_modules/
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+.idea/
+*.iml
+.DS_Store
+.env
+.env.*
+!.env.example
