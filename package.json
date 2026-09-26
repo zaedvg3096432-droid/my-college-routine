@@ -1,7 +1,7 @@
 {
   "name": "my-college-routine-app",
   "version": "1.0.0",
-  "description": "روتيني الجامعي — تطبيق أندرويد أصلي مبني بـ Capacitor",
+  "description": "My Routine \u2014 \u062a\u0637\u0628\u064a\u0642 \u0623\u0646\u062f\u0631\u0648\u064a\u062f \u0623\u0635\u0644\u064a \u0645\u0628\u0646\u064a \u0628\u0640 Capacitor",
   "scripts": {
     "build": "esbuild src/index.jsx --bundle --minify --platform=browser --format=iife --outfile=www/bundle.js && npx cap sync android"
   },
